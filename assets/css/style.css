@@ -1,0 +1,163 @@
+* {
+    margin: 0%;
+}
+
+header {
+    background-color:rgb(152, 152, 158); 
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 2%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page-layout {
+    display: flex;
+    flex-direction: row;
+}
+
+/* search form and past searched city buttons on left side of page */
+.left-side {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 2%;
+}
+
+.search-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    padding-bottom: 20px; 
+    border-bottom-style: solid;
+    border-color: rgb(210, 210, 210);  
+}
+
+.search-box label {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#city {
+    height: 35px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(210, 210, 210);
+    font-size: 22px;   
+}
+
+.search-button {
+    height: 30px;
+    color: white;
+    background-color: rgb(75, 75, 232);
+    border-style: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.search-button:hover {
+    background-color: rgb(52, 52, 154);
+}
+
+.button {
+    height: 30px;
+    color: black;
+    background-color: rgb(152, 152, 158);
+    border-style: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.button:hover {
+    color: white;
+    background-color: rgb(75, 75, 232);
+}
+
+.searched-cities {
+    display: flex;
+    flex-direction: column;
+}
+
+/* weather section on right side of page */
+.right-side {
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    width: 80%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.main-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 200px;
+    border-style: solid;
+    border-color: rgb(210, 210, 210);
+    padding-left: 5px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+#todays-date {
+    padding-left: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.five-day {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 18%;
+    background-color: rgb(30, 30, 66);
+    color: white;
+    padding-left: 5px;
+    font-size: 12px;
+    border-style: solid;
+    border-color: rgb(9, 133, 216);
+}
+
+.date {
+    font-size: 18px;
+}
+
+img {
+    width: 65px;
+    height: 65px;
+}
+
+footer {
+    position:fixed;
+    bottom: 1%;
+    text-align: center;
+    width:100%;
+ }
