@@ -20,5 +20,5 @@ So that ... I can plan a trip accordingly</br>
 
 ## Links
 
-[Link to GitHub Repositorty for Food and Drink Project](https://github.com/jrwesch/weather-dashboard) <br> 
+[Link to GitHub Repositorty for Weather Dashboard](https://github.com/jrwesch/weather-dashboard) <br> 
 [Link to GitHub Pages view of website](https://jrwesch.github.io/weather-dashboard)
